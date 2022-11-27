@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>dart-sass-embedded</id>
+    <version>1.56.1</version>
+    <packageSourceUrl>https://github.com/jmooring/dart-sass-embedded-chocolatey</packageSourceUrl>
+    <owners>Joe Mooring</owners>
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>Embedded Dart Sass</title>
+    <authors>https://github.com/sass</authors>
+    <projectUrl>https://github.com/sass/dart-sass-embedded</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/jmooring/dart-sass-embedded-chocolatey/f97db0a9ef00b0bd32fc6d581285acb7544cefde/logo.png</iconUrl>
+    <copyright>2019 Google LLC</copyright>
+    <licenseUrl>https://github.com/sass/dart-sass-embedded/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://github.com/sass/dart-sass-embedded#readme</docsUrl>
+    <bugTrackerUrl>https://github.com/sass/dart-sass-embedded/issues</bugTrackerUrl>
+    <tags>dart-sass-embedded sass</tags>
+    <summary>A wrapper for Dart Sass that implements the compiler side of the Embedded Sass protocol.</summary>
+    <description>This is a wrapper for [Dart Sass](https://sass-lang.com/dart-sass) that implements the compiler side of the [Embedded Sass protocol](https://github.com/sass/sass-embedded-protocol/blob/master/README.md#readme). It's designed to be embedded in a host language, which then exposes an API for users to invoke Sass and define custom functions and importers.</description>
+    <releaseNotes>https://github.com/sass/dart-sass-embedded/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
