@@ -4,7 +4,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>dart-sass-embedded</id>
-    <version>1.56.1</version>
+    <version>1.58.3</version>
     <packageSourceUrl>https://github.com/jmooring/dart-sass-embedded-chocolatey</packageSourceUrl>
     <owners>Joe Mooring</owners>
     <!-- == SOFTWARE SPECIFIC SECTION == -->
