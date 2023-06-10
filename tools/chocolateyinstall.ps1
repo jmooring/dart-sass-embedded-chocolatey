@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/sass/dart-sass-embedded/releases/download/1.58.3/sass_embedded-1.58.3-windows-ia32.zip'
-$url64      = 'https://github.com/sass/dart-sass-embedded/releases/download/1.58.3/sass_embedded-1.58.3-windows-x64.zip'
+$url        = 'https://github.com/sass/dart-sass-embedded/releases/download/1.62.1/sass_embedded-1.62.1-windows-ia32.zip'
+$url64      = 'https://github.com/sass/dart-sass-embedded/releases/download/1.62.1/sass_embedded-1.62.1-windows-x64.zip'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -11,9 +11,9 @@ $packageArgs = @{
   url64bit      = $url64
   softwareName  = 'dart-sass-embedded*'
 
-  checksum      = '922CE0B17970A88A9A993047CE3CB9E3B82DD50558D4ADD62D1033E149263D93'
+  checksum      = 'D8DC496B35C52ADD61057598DFBAC87F2ECA5162F654AAC558000F63AF94119F'
   checksumType  = 'sha256'
-  checksum64    = '5D34BAEA134D8693E27E2E98E098D48706B345A5F7FB145A97F06A3493B2AD79'
+  checksum64    = '97336AFE04E7B5AD38A3DBB6B5A9EA01D0E8652C3889BF7FDF67D1D635511FEB'
   checksumType64= 'sha256'
 }
 
